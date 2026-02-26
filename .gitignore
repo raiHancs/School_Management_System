@@ -4,6 +4,7 @@
 **/*.user
 **/Logs/*
 **/temp
+**/appsettings.json
 
 # Logs
 logs

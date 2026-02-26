@@ -19,7 +19,7 @@ namespace SchoolManagement.Data
         {
             base.OnConfiguring(optionsBuilder);
             if (!optionsBuilder.IsConfigured)
-                optionsBuilder.UseSqlServer("Data Source=.\\SQLEXPRESS; Initial Catalog=WebSchool; User ID=developer; Password=123456; TrustServerCertificate=True;");
+                optionsBuilder.UseSqlServer("workstation id=webschooldb.mssql.somee.com;packet size=4096;user id=raiHancs_SQLLogin_1;pwd=rHn724426;data source=webschooldb.mssql.somee.com;persist security info=False;initial catalog=webschooldb;TrustServerCertificate=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
