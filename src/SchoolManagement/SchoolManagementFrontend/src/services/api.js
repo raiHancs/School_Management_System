@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // ⚠️ CHANGE THIS PORT TO YOUR API PORT!
-const API_BASE_URL = 'https://localhost:7000/api';
+const API_BASE_URL = 'http://schooladminrhn.somee.com/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
